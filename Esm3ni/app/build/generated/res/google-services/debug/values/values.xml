@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">287250543730-n3l8svbesipe2da4p2oj4cq518jelj6k.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://seefood-5fc0f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">287250543730</string>
+    <string name="google_api_key" translatable="false">AIzaSyDd4sH6W02_x2yvNLVN-jJtD_9wm9VEYU4</string>
+    <string name="google_app_id" translatable="false">1:287250543730:android:f502a95d66673fd32afeeb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDd4sH6W02_x2yvNLVN-jJtD_9wm9VEYU4</string>
+    <string name="google_storage_bucket" translatable="false">seefood-5fc0f.appspot.com</string>
+    <string name="project_id" translatable="false">seefood-5fc0f</string>
+</resources>

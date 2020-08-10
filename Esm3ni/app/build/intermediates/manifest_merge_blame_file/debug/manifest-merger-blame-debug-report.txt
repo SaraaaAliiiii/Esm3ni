@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.seefood"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\e049e1e18d8b8badad940fb0011b5821\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\e049e1e18d8b8badad940fb0011b5821\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5a575fce39e56ae7a5fd967a2cfdfd3a\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+17-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5a575fce39e56ae7a5fd967a2cfdfd3a\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:8:5-30:19
+22        android:allowBackup="true"
+22-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5ffe18101472858966aeed00a1c9f3c0\core-1.2.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:11:9-41
+27        android:largeHeap="true"
+27-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:12:9-33
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:15:9-40
+32        <activity android:name="com.example.seefood.User" />
+32-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:16:9-51
+32-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:16:19-39
+33        <activity android:name="com.example.seefood.ForgotPassActivity" />
+33-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:17:9-56
+33-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:17:19-53
+34        <activity android:name="com.example.seefood.TextActivity" />
+34-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:18:9-50
+34-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:18:19-47
+35        <activity android:name="com.example.seefood.SignOutActivity" />
+35-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:19:9-53
+35-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:19:19-50
+36        <activity android:name="com.example.seefood.LoginActivity" />
+36-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:20:9-51
+36-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:20:19-48
+37        <activity android:name="com.example.seefood.HomeActivity" />
+37-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:21:9-50
+37-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:21:19-47
+38        <activity android:name="com.example.seefood.RegisterActivity" >
+38-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:22:9-28:20
+38-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:22:19-51
+39            <intent-filter>
+39-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:23:13-27:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:24:17-69
+40-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:26:17-77
+42-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:26:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.example.seefood.MainActivity" />
+45-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:29:9-50
+45-->C:\Users\SARA ALI\Desktop\V7\SeeFood-master\SeeFood-master\app\src\main\AndroidManifest.xml:29:19-47
+46
+47        <service
+47-->[com.google.firebase:firebase-storage-ktx:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\cd453403a379496ad4fa6f11de885cd6\firebase-storage-ktx-19.1.1\AndroidManifest.xml:12:9-18:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-storage-ktx:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\cd453403a379496ad4fa6f11de885cd6\firebase-storage-ktx-19.1.1\AndroidManifest.xml:13:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\272ed2c371e1564a9d8faf6105f19cae\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-storage-ktx:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\cd453403a379496ad4fa6f11de885cd6\firebase-storage-ktx-19.1.1\AndroidManifest.xml:14:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-storage-ktx:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\cd453403a379496ad4fa6f11de885cd6\firebase-storage-ktx-19.1.1\AndroidManifest.xml:15:13-17:85
+52                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+52-->[com.google.firebase:firebase-storage-ktx:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\cd453403a379496ad4fa6f11de885cd6\firebase-storage-ktx-19.1.1\AndroidManifest.xml:16:17-122
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-storage-ktx:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\cd453403a379496ad4fa6f11de885cd6\firebase-storage-ktx-19.1.1\AndroidManifest.xml:17:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\d671c0006ba3ce91b8574dc949ed203b\firebase-common-ktx-19.3.0\AndroidManifest.xml:15:13-17:85
+55                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+55-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\d671c0006ba3ce91b8574dc949ed203b\firebase-common-ktx-19.3.0\AndroidManifest.xml:16:17-113
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\d671c0006ba3ce91b8574dc949ed203b\firebase-common-ktx-19.3.0\AndroidManifest.xml:17:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\337bc82c7d3a18ee2f528c0287fefac3\firebase-ml-vision-24.0.2\AndroidManifest.xml:12:13-14:85
+58                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+58-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\337bc82c7d3a18ee2f528c0287fefac3\firebase-ml-vision-24.0.2\AndroidManifest.xml:13:17-108
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\337bc82c7d3a18ee2f528c0287fefac3\firebase-ml-vision-24.0.2\AndroidManifest.xml:14:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+61                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+61-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-database:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\e049e1e18d8b8badad940fb0011b5821\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+64                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+64-->[com.google.firebase:firebase-database:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\e049e1e18d8b8badad940fb0011b5821\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-database:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\e049e1e18d8b8badad940fb0011b5821\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\8d2f7f95148a52473a3db5adf7a6d0db\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
+67                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+67-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\8d2f7f95148a52473a3db5adf7a6d0db\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\8d2f7f95148a52473a3db5adf7a6d0db\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-ml-common:22.1.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\3552521d7cfba8b505224faec6d761b5\firebase-ml-common-22.1.0\AndroidManifest.xml:11:13-13:85
+70                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+70-->[com.google.firebase:firebase-ml-common:22.1.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\3552521d7cfba8b505224faec6d761b5\firebase-ml-common-22.1.0\AndroidManifest.xml:12:17-117
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-ml-common:22.1.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\3552521d7cfba8b505224faec6d761b5\firebase-ml-common-22.1.0\AndroidManifest.xml:13:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\291658e529c56717b3882275a00c8ea8\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+73                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+73-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\291658e529c56717b3882275a00c8ea8\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\291658e529c56717b3882275a00c8ea8\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+75            <meta-data
+75-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5a575fce39e56ae7a5fd967a2cfdfd3a\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+76                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+76-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5a575fce39e56ae7a5fd967a2cfdfd3a\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5a575fce39e56ae7a5fd967a2cfdfd3a\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+79-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+81        </service>
+82
+83        <provider
+83-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c7b8b03717d4311d2ef16f8e5b2dff48\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:25:9-30:43
+84            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+84-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c7b8b03717d4311d2ef16f8e5b2dff48\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:26:13-75
+85            android:authorities="com.example.seefood.camerax-init"
+85-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c7b8b03717d4311d2ef16f8e5b2dff48\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:27:13-64
+86            android:exported="false"
+86-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c7b8b03717d4311d2ef16f8e5b2dff48\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:28:13-37
+87            android:initOrder="100"
+87-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c7b8b03717d4311d2ef16f8e5b2dff48\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:29:13-36
+88            android:multiprocess="true" />
+88-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c7b8b03717d4311d2ef16f8e5b2dff48\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:30:13-40
+89
+90        <activity
+90-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+91            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+91-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+92            android:excludeFromRecents="true"
+92-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+93            android:exported="true"
+93-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+94            android:launchMode="singleTask"
+94-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+95            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\dafd7e4b464f3c37a001debc246d3f9f\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+97
+98        <receiver
+98-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+99            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+99-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+100            android:exported="true"
+100-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+101            android:permission="com.google.android.c2dm.permission.SEND" >
+101-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+102            <intent-filter>
+102-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+103                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+103-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+103-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\41babd8eb1a1e0fe385c3661123fb426\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+104            </intent-filter>
+105        </receiver>
+106
+107        <provider
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\272ed2c371e1564a9d8faf6105f19cae\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+108            android:name="com.google.firebase.provider.FirebaseInitProvider"
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\272ed2c371e1564a9d8faf6105f19cae\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+109            android:authorities="com.example.seefood.firebaseinitprovider"
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\272ed2c371e1564a9d8faf6105f19cae\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+110            android:exported="false"
+110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\272ed2c371e1564a9d8faf6105f19cae\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+111            android:initOrder="100" />
+111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\272ed2c371e1564a9d8faf6105f19cae\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\6b4b5bc3433b6bc3909998edabdbe771\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\6b4b5bc3433b6bc3909998edabdbe771\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\6b4b5bc3433b6bc3909998edabdbe771\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\6b4b5bc3433b6bc3909998edabdbe771\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+117
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+122        </receiver>
+123        <receiver
+123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+126            android:exported="true"
+126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+127            android:permission="android.permission.INSTALL_PACKAGES" >
+127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+128            <intent-filter>
+128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+129                <action android:name="com.android.vending.INSTALL_REFERRER" />
+129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+130            </intent-filter>
+131        </receiver>
+132
+133        <service
+133-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+134            android:name="com.google.android.gms.measurement.AppMeasurementService"
+134-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+135            android:enabled="true"
+135-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+136            android:exported="false" />
+136-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+137        <service
+137-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+138            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+138-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\c2cb39ab9e15e5b9785b2a45c8ad579a\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+142
+143        <meta-data
+143-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5fd6477dfcae6e793ab1500f4fac2378\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+144            android:name="com.google.android.gms.version"
+144-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5fd6477dfcae6e793ab1500f4fac2378\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+145            android:value="@integer/google_play_services_version" />
+145-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SARA ALI\.gradle\caches\transforms-2\files-2.1\5fd6477dfcae6e793ab1500f4fac2378\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+146    </application>
+147
+148</manifest>
